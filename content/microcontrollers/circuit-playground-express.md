@@ -16,6 +16,20 @@ The [Adafruit Circuit Playground Express](https://www.adafruit.com/product/3333)
 | ADC      | YES | YES |
 | PWM      | YES | YES |
 
+## Pins
+
+| Pin          | Hardware pin | PWM
+| ------------ | ------------ | ----------------
+| `A0`         | `PA02`       |
+| `A1`         | `PA05`       | PWM0 (channel 1)
+| `A2`         | `PA06`       | PWM1 (channel 0)
+| `A3`         | `PA07`       | PWM1 (channel 1)
+| `A4`         | `PB03`       |
+| `A5`         | `PB02`       |
+| `A6`         | `PB09`       |
+| `A7`         | `PB08`       |
+| `D13`, `LED` | `PA17`       | PWM2 (channel 1), PWM0 (channel 3)
+
 ## Machine Package Docs
 
 [Documentation for the machine package for the Circuit Playground Express](../machine/circuitplay-express)
